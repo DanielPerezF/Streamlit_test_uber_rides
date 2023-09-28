@@ -1,8 +1,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from emoji import emojize
 
 st.title('Uber pickups in NYC')
+st.write('Juanis te amo muchoo '+emojize(":heart:")+emojize(":dog:"))
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
